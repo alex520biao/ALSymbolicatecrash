@@ -51,7 +51,7 @@ chmod 777 ${symbolCrashPath}
 exec osascript <<EOF
 tell application "System Events"
 	#语音提示
-	say "啊噢啊噢啊啊噢噢 任务已完成赶快查看吧"
+	say "哇哈哈哈哈哈 任务已完成赶快查看吧"
 
 	set dialogResult to display dialog "symbol文件地址: ${symbolCrashPath}" with title "${crashFullName}符号化完成" buttons {"点击打开"}
 	if button returned of dialogResult is "朕知道了" then
